@@ -1,0 +1,155 @@
+*{
+    font-family: Arial, Helvetica, sans-serif serif;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: 'Pacifico, Courgette';
+    src: url(../Font/Pacifico-Regular.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+/* Navbar Style Start */
+
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-toggler{
+    background-color: #FFCA14 !important;
+}
+
+.logoimg{
+    width: 12em;
+}
+
+.nav-link{
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.dropdown-menu{
+    background-color: black !important;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+
+.nav-link:hover{
+    color: #FFCA14 !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #FFCA14;
+}
+
+.dropdown-item:hover{
+    color: black !important;
+}
+
+/* Navbar Style End */
+
+/* Location Style Start */
+
+.heading{
+    font-family: 'Pacifico' !important;
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+    color: #FFCA14;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+.location{
+   text-align: center;
+}
+
+.locate-txt{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.locate-txt p, .la{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.locate-btn{
+    margin: 30px 0px;
+    color: black;
+    background-color: #FFCA14 !important;
+}
+
+/* Location Style End */
+
+/* Footer Style start */
+
+.footer{
+    background-color: #0f1112;
+    margin: 90px 60px 0px 60px;
+}
+
+.footer-center{
+    text-align: center;
+}
+
+.footer-inline li, a{
+    display: inline-block;
+}
+
+.footer-ul{
+    list-style: none;
+}
+
+.footer-ul li{
+    margin: 30px 0px 0px 0px;
+}
+
+.footer-ul li a{
+    background-color: black;
+    border-radius: 90px;
+    padding: 10px;
+    margin: 5px 7px 0px 0px;
+}
+
+.social-icon{
+    color: yellow;
+    margin: 3px; 
+}
+
+.social-f{
+    color: yellow;
+    margin: 6px;
+}
+
+.footer-txt a, p{
+    color: gray;
+}
+
+.line{
+    color: yellow;
+}
+
+.copyright{
+    padding: 10px 0px 15px 0px; 
+}
+
+.copyright p{
+   margin: 0px;
+}
+
+/* Footer Style End */
+
+@media all and (max-width: 576px){
+
+    .footer{
+        margin: 30px 0px 0px 0px;
+    }
+}
